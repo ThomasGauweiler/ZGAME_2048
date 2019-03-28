@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_GAME_2048</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>HTTP Handler for Game 2048</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>5</UNICODE>
+   </VSEOCLASS>
+   <ATTRIBUTES>
+    <item>
+     <CMPNAME>TILE_COLORS</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>MARK_NEW_TILES</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>RND</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>FIELD</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>N</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>NSQ</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>TARGET</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>SCORE</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>MOVES</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>HEADER</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>OVER</CMPNAME>
+    </item>
+    <item>
+     <CMPNAME>LINE</CMPNAME>
+    </item>
+   </ATTRIBUTES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

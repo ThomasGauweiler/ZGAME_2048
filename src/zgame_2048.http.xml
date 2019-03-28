@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_HTTP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HTTP>
+    <METADATA>
+     <NAME>ZGAME_2048</NAME>
+     <TYPE>HTTP</TYPE>
+     <DESCRIPTION>HTTP version of Game 2048</DESCRIPTION>
+     <LANGUAGE>EN</LANGUAGE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+    </METADATA>
+    <TEXT>
+     <ID>ZGAME_2048</ID>
+     <VERSION>A</VERSION>
+     <LANG>E</LANG>
+     <SHORTTEXT>HTTP version of Game 2048</SHORTTEXT>
+    </TEXT>
+    <HANDLER>
+     <UCONHTTPSERVHAND>
+      <ID>ZGAME_2048</ID>
+      <VERSION>A</VERSION>
+      <SERVICEORDER>01</SERVICEORDER>
+      <SERVICEHANDLER>ZCL_GAME_2048</SERVICEHANDLER>
+     </UCONHTTPSERVHAND>
+    </HANDLER>
+   </HTTP>
+  </asx:values>
+ </asx:abap>
+</abapGit>
